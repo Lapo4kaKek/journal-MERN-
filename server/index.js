@@ -10,7 +10,7 @@ import userModel from './models/User.js'
 import * as UserController from './controllers/UserController.js'
 import * as PostController from './controllers/PostController.js'
 
-mongoose.connect('ссылка')
+mongoose.connect('mongodb+srv://admin:wwwwww@cluster0.qqibxix.mongodb.net/?retryWrites=true&w=majority')
     .then(()=>console.log('DB ok'))
     .catch((err)=>console.log('DB error',err));
 
